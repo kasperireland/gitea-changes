@@ -1,5 +1,6 @@
 {{template "base/head" .}}
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<link rel = "stylesheet" href = "https://cdn.statically.io/gh/kasperireland/gitpearcss/main/gitpear.css">
 <div class="page-content home">
 	<div class="ui stackable middle very relaxed page grid">
 		<div class="sixteen wide center aligned centered column">
@@ -10,7 +11,8 @@
 				<h1 class="ui icon header title">
 					{{AppName}}
 				</h1>
-				<h2>{{.i18n.Tr "startpage.app_desc"}}</h2>
+				<h2 style = "display:none;">{{.i18n.Tr "startpage.app_desc"}}</h2>
+				<br /><a href = "https://gitpear.com/user/sign_up"><button class = "button">Register an Account</button></a>
 			</div>
 		</div>
 	</div>
